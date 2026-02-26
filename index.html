@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>2D game thing</title>
-    <link rel="levelsheet" href="level1.js" />
+    <title>2D game</title>
+    <link rel="levelsheet" href="" />
   </head>
   <body>
-    <canvas id="myCanvas" width="1000" height="500" style="border:5px solid black;"></canvas>
+    <canvas id="Canvas" width="1000" height="500" style="border:5px solid black;"></canvas>
     <script>
-      const canvas = document.getElementById("myCanvas");
+      const c = document.getElementById("Canvas");
       const ctx = canvas.getContext("2d");
       function draw2d(color, offsetX, offsetY, sizeX, sizeY) {
         ctx.fillStyle = color;
@@ -16,8 +16,8 @@
       }
      
       //player stuff
-      draw2d("green", 40, 400, 30, 30)
-      function move() {
+      draw2d("green", 0, 0, 30, 30)
+      function move(X, Y) {
         
       }
     </script>
