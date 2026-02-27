@@ -1,2 +1,3 @@
 # 2D-game-thing
-A game made with OneCompiler and a dream.
+
+To run the game just run the 'index.html'.
