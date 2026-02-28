@@ -1,4 +1,4 @@
-const canvas = document.getElementById("myCanvas");
+const canvas = document.getElementById("Canvas");
 const ctx = canvas.getContext("2d");
 function draw2d(color, offsetX, offsetY, sizeX, sizeY) {
   ctx.fillStyle = color;
