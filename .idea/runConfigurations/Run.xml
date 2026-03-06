@@ -1,6 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="true" name="Run Game" type="JavascriptDebugType" uri="file://$PROJECT_DIR$/Game/game.html" useFirstLineBreakpoints="true">
-    <mapping url="http://localhost:1738" local-file="$PROJECT_DIR$/Game/game.html" />
-    <method v="2" />
-  </configuration>
-</component>

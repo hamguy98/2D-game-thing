@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run Game" type="JavascriptDebugType" uri="file://$PROJECT_DIR$/Game/game.html" useFirstLineBreakpoints="true">
+    <method v="2" />
+  </configuration>
+</component>
