@@ -1,16 +1,19 @@
 const c = document.getElementById("Canvas");
-  const ctx = c.getContext("2d");
-  function draw2d(color, offsetX, offsetY, sizeX, sizeY) {
+const ctx = c.getContext("2d");
+function draw2d(color, offsetX, offsetY, sizeX, sizeY) {
+  var shape;
   ctx.fillStyle = color;
-  ctx.fillRect(offsetX, offsetY, sizeX, sizeY);
-  return
+  shape = ctx.fillRect(offsetX, offsetY, sizeX, sizeY);
+  return shape;
 }
-  
+
 //player stuff
-draw2d("green", 0, 0, 30, 30)
-function move(X, Y) {
-        
+var player;
+player = draw2d("green", 0, 0, 30, 30)
+function move(obj, X, Y) {
+  console.log(obj);
 }
+move(player);
 
 var startButton = document
   .querySelector("#startGame")
